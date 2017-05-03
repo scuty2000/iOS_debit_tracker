@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12D59231EB8802300997C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D59221EB8802300997C03 /* AppDelegate.swift */; };
+		C12D59251EB8802300997C03 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D59241EB8802300997C03 /* FirstViewController.swift */; };
+		C12D59271EB8802300997C03 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D59261EB8802300997C03 /* SecondViewController.swift */; };
+		C12D592A1EB8802300997C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D59281EB8802300997C03 /* Main.storyboard */; };
+		C12D592C1EB8802300997C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12D592B1EB8802300997C03 /* Assets.xcassets */; };
+		C12D592F1EB8802300997C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D592D1EB8802300997C03 /* LaunchScreen.storyboard */; };
+		C12D593A1EB8802400997C03 /* Debit_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D59391EB8802400997C03 /* Debit_TrackerTests.swift */; };
+		C12D59451EB8802400997C03 /* Debit_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D59441EB8802400997C03 /* Debit_TrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C12D59361EB8802400997C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C12D59171EB8802300997C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C12D591E1EB8802300997C03;
+			remoteInfo = "Debit Tracker";
+		};
+		C12D59411EB8802400997C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C12D59171EB8802300997C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C12D591E1EB8802300997C03;
+			remoteInfo = "Debit Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C12D591F1EB8802300997C03 /* Debit Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debit Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12D59221EB8802300997C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C12D59241EB8802300997C03 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C12D59261EB8802300997C03 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C12D59291EB8802300997C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C12D592B1EB8802300997C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C12D592E1EB8802300997C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C12D59301EB8802300997C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12D59351EB8802400997C03 /* Debit TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Debit TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12D59391EB8802400997C03 /* Debit_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debit_TrackerTests.swift; sourceTree = "<group>"; };
+		C12D593B1EB8802400997C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12D59401EB8802400997C03 /* Debit TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Debit TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12D59441EB8802400997C03 /* Debit_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debit_TrackerUITests.swift; sourceTree = "<group>"; };
+		C12D59461EB8802400997C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C12D591C1EB8802300997C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12D59321EB8802400997C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12D593D1EB8802400997C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C12D59161EB8802300997C03 = {
+			isa = PBXGroup;
+			children = (
+				C12D59211EB8802300997C03 /* Debit Tracker */,
+				C12D59381EB8802400997C03 /* Debit TrackerTests */,
+				C12D59431EB8802400997C03 /* Debit TrackerUITests */,
+				C12D59201EB8802300997C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C12D59201EB8802300997C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12D591F1EB8802300997C03 /* Debit Tracker.app */,
+				C12D59351EB8802400997C03 /* Debit TrackerTests.xctest */,
+				C12D59401EB8802400997C03 /* Debit TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C12D59211EB8802300997C03 /* Debit Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				C12D59221EB8802300997C03 /* AppDelegate.swift */,
+				C12D59241EB8802300997C03 /* FirstViewController.swift */,
+				C12D59261EB8802300997C03 /* SecondViewController.swift */,
+				C12D59281EB8802300997C03 /* Main.storyboard */,
+				C12D592B1EB8802300997C03 /* Assets.xcassets */,
+				C12D592D1EB8802300997C03 /* LaunchScreen.storyboard */,
+				C12D59301EB8802300997C03 /* Info.plist */,
+			);
+			path = "Debit Tracker";
+			sourceTree = "<group>";
+		};
+		C12D59381EB8802400997C03 /* Debit TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C12D59391EB8802400997C03 /* Debit_TrackerTests.swift */,
+				C12D593B1EB8802400997C03 /* Info.plist */,
+			);
+			path = "Debit TrackerTests";
+			sourceTree = "<group>";
+		};
+		C12D59431EB8802400997C03 /* Debit TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C12D59441EB8802400997C03 /* Debit_TrackerUITests.swift */,
+				C12D59461EB8802400997C03 /* Info.plist */,
+			);
+			path = "Debit TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C12D591E1EB8802300997C03 /* Debit Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12D59491EB8802400997C03 /* Build configuration list for PBXNativeTarget "Debit Tracker" */;
+			buildPhases = (
+				C12D591B1EB8802300997C03 /* Sources */,
+				C12D591C1EB8802300997C03 /* Frameworks */,
+				C12D591D1EB8802300997C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Debit Tracker";
+			productName = "Debit Tracker";
+			productReference = C12D591F1EB8802300997C03 /* Debit Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C12D59341EB8802400997C03 /* Debit TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12D594C1EB8802400997C03 /* Build configuration list for PBXNativeTarget "Debit TrackerTests" */;
+			buildPhases = (
+				C12D59311EB8802400997C03 /* Sources */,
+				C12D59321EB8802400997C03 /* Frameworks */,
+				C12D59331EB8802400997C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C12D59371EB8802400997C03 /* PBXTargetDependency */,
+			);
+			name = "Debit TrackerTests";
+			productName = "Debit TrackerTests";
+			productReference = C12D59351EB8802400997C03 /* Debit TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C12D593F1EB8802400997C03 /* Debit TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12D594F1EB8802400997C03 /* Build configuration list for PBXNativeTarget "Debit TrackerUITests" */;
+			buildPhases = (
+				C12D593C1EB8802400997C03 /* Sources */,
+				C12D593D1EB8802400997C03 /* Frameworks */,
+				C12D593E1EB8802400997C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C12D59421EB8802400997C03 /* PBXTargetDependency */,
+			);
+			name = "Debit TrackerUITests";
+			productName = "Debit TrackerUITests";
+			productReference = C12D59401EB8802400997C03 /* Debit TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C12D59171EB8802300997C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ruffini Fablab";
+				TargetAttributes = {
+					C12D591E1EB8802300997C03 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RDX5JDVGK8;
+						ProvisioningStyle = Automatic;
+					};
+					C12D59341EB8802400997C03 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RDX5JDVGK8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C12D591E1EB8802300997C03;
+					};
+					C12D593F1EB8802400997C03 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RDX5JDVGK8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C12D591E1EB8802300997C03;
+					};
+				};
+			};
+			buildConfigurationList = C12D591A1EB8802300997C03 /* Build configuration list for PBXProject "Debit Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C12D59161EB8802300997C03;
+			productRefGroup = C12D59201EB8802300997C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C12D591E1EB8802300997C03 /* Debit Tracker */,
+				C12D59341EB8802400997C03 /* Debit TrackerTests */,
+				C12D593F1EB8802400997C03 /* Debit TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C12D591D1EB8802300997C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12D592F1EB8802300997C03 /* LaunchScreen.storyboard in Resources */,
+				C12D592C1EB8802300997C03 /* Assets.xcassets in Resources */,
+				C12D592A1EB8802300997C03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12D59331EB8802400997C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12D593E1EB8802400997C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C12D591B1EB8802300997C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12D59271EB8802300997C03 /* SecondViewController.swift in Sources */,
+				C12D59231EB8802300997C03 /* AppDelegate.swift in Sources */,
+				C12D59251EB8802300997C03 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12D59311EB8802400997C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12D593A1EB8802400997C03 /* Debit_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12D593C1EB8802400997C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12D59451EB8802400997C03 /* Debit_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C12D59371EB8802400997C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C12D591E1EB8802300997C03 /* Debit Tracker */;
+			targetProxy = C12D59361EB8802400997C03 /* PBXContainerItemProxy */;
+		};
+		C12D59421EB8802400997C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C12D591E1EB8802300997C03 /* Debit Tracker */;
+			targetProxy = C12D59411EB8802400997C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C12D59281EB8802300997C03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12D59291EB8802300997C03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C12D592D1EB8802300997C03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12D592E1EB8802300997C03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C12D59471EB8802400997C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C12D59481EB8802400997C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C12D594A1EB8802400997C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RDX5JDVGK8;
+				INFOPLIST_FILE = "Debit Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruffinifablab.Debit-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C12D594B1EB8802400997C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RDX5JDVGK8;
+				INFOPLIST_FILE = "Debit Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruffinifablab.Debit-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C12D594D1EB8802400997C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RDX5JDVGK8;
+				INFOPLIST_FILE = "Debit TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruffinifablab.Debit-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Debit Tracker.app/Debit Tracker";
+			};
+			name = Debug;
+		};
+		C12D594E1EB8802400997C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RDX5JDVGK8;
+				INFOPLIST_FILE = "Debit TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruffinifablab.Debit-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Debit Tracker.app/Debit Tracker";
+			};
+			name = Release;
+		};
+		C12D59501EB8802400997C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RDX5JDVGK8;
+				INFOPLIST_FILE = "Debit TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruffinifablab.Debit-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Debit Tracker";
+			};
+			name = Debug;
+		};
+		C12D59511EB8802400997C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RDX5JDVGK8;
+				INFOPLIST_FILE = "Debit TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruffinifablab.Debit-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Debit Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C12D591A1EB8802300997C03 /* Build configuration list for PBXProject "Debit Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12D59471EB8802400997C03 /* Debug */,
+				C12D59481EB8802400997C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12D59491EB8802400997C03 /* Build configuration list for PBXNativeTarget "Debit Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12D594A1EB8802400997C03 /* Debug */,
+				C12D594B1EB8802400997C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12D594C1EB8802400997C03 /* Build configuration list for PBXNativeTarget "Debit TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12D594D1EB8802400997C03 /* Debug */,
+				C12D594E1EB8802400997C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12D594F1EB8802400997C03 /* Build configuration list for PBXNativeTarget "Debit TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12D59501EB8802400997C03 /* Debug */,
+				C12D59511EB8802400997C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C12D59171EB8802300997C03 /* Project object */;
+}
