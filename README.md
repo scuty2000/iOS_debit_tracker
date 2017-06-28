@@ -1,5 +1,7 @@
 # iOS_debit_tracker
 
+<a href="https://travis-ci.org/scuty2000/iOS_debit_tracker"><img src="https://travis-ci.org/scuty2000/iOS_debit_tracker.svg?branch=master" alt="Build Status" /></a>
+
 This App is a little Debit Tracker/Keeper, which allows you to keep note of the debits somebody have with you.
 
 # Screenshots
