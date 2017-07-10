@@ -4,6 +4,17 @@
 
 This App is a little Debit Tracker/Keeper, which allows you to keep note of the debits somebody have with you.
 
+# Compatibility
+
+Supported iOS Versions:
+
+- 9.X
+- 10.X
+
+Currently unsupported iOS Versions:
+
+- 11.X
+
 # Screenshots
 
 <img src="http://www.lucascutigliani.it/github/iOS_debit_tracker/screen/1.png" alt="screen1">
