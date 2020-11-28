@@ -15,12 +15,7 @@ Currently unsupported iOS Versions:
 
 - 11.X
 
-# Screenshots
+# DEPRECATED
 
-<img src="http://www.lucascutigliani.it/github/iOS_debit_tracker/screen/1.png" alt="screen1">
-
-<img src="http://www.lucascutigliani.it/github/iOS_debit_tracker/screen/2.png" alt="screen2">
-
-<img src="http://www.lucascutigliani.it/github/iOS_debit_tracker/screen/3.png" alt="screen3">
-
-<img src="http://www.lucascutigliani.it/github/iOS_debit_tracker/screen/4.png" alt="screen4">
+New DebitTracker2 app available <a href="https://github.com/scuty2000/DebitTracker2">here</a>.
+N.B. The app is still is development
